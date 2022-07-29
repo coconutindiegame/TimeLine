@@ -10,7 +10,12 @@ public class Main {
 		display = new MSDisplay("TimeLine", 1280, 720);
 
 		/*
-		 * test test 0730 test
+		 * test test 0730 fuck
+		 * plz
+		 * plz
+		 * plz
+		 * get the fuck
+		 * plz
 		 */
 	}
 
