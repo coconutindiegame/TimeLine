@@ -6,7 +6,7 @@ public class Game implements MSState {
 
 	@Override
 	public void init() {
-		// 준서 바보.
+
 	}
 
 	@Override
