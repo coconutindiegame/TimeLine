@@ -10,19 +10,8 @@ public class Main {
 		display = new MSDisplay("TimeLine", 1280, 720);
 
 		/*
-		 * test test 0730 fuck
-		 * plz
-			준서야 보이냐
-			준서야 보이냐
-			준서야 보이냐
-			준서야 보이냐
-			준서야 보이냐
-			준서야 보이냐
-			준서야 보이냐
-			준서야 보이냐
-		 * plz
-		 * get the fuck
-		 * plz
+		 * test test 0730 fuck plz 준서야 보이냐 준서야 보이냐 준서야 보이냐 준서야 보이냐 준서야 보이냐 준서야 보이냐 준서야
+		 * 보이냐 준서야 보이냐 ddd plz get the fuck plz
 		 */
 	}
 
