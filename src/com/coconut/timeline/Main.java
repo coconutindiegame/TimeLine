@@ -8,6 +8,10 @@ public class Main {
 
 	public static void main(String[] args) {
 		display = new MSDisplay("TimeLine", 1280, 720);
+
+		/*
+		 * test test 0730 test
+		 */
 	}
 
 }
