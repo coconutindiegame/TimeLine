@@ -1,18 +1,20 @@
 package com.coconut.timeline;
 
+import com.coconut.timeline.state.Game;
+
 import dev.suback.marshmallow.MSDisplay;
+import dev.suback.marshmallow.state.MSState;
 
 public class Main {
 
 	public static MSDisplay display;
+	public static Game game;
 
 	public static void main(String[] args) {
+		game = new Game();
 		display = new MSDisplay("TimeLine", 1280, 720);
 
-		/*
-		 * test test 0730 fuck plz 준서야 보이냐 준서야 보이냐 준서야 보이냐 준서야 보이냐 준서야 보이냐 준서야 보이냐 준서야
-		 * 보이냐 준서야 보이냐 ddd plz get the fuck plz
-		 */
+		MSState.setState(game);
 	}
 
 }
