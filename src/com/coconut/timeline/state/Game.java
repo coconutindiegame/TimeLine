@@ -22,6 +22,7 @@ public class Game implements MSState {
 	public void render() {
 		MSRender.setColor(Color.black);
 		MSRender.renderUIRect(MSDisplay.width / 2, MSDisplay.height / 2, MSDisplay.width, MSDisplay.height);
+
 	}
 
 	@Override
