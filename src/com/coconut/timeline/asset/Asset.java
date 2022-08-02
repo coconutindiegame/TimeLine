@@ -11,4 +11,8 @@ public class Asset {
 			new MSSprite("img/player.png").cutImage(IS * 2, 0, IS, IS),
 			new MSSprite("img/player.png").cutImage(IS * 3, 0, IS, IS), };
 
+	public static final MSSprite[] mineTile = { new MSSprite("img/mine/tile.png").cutImage(0, 0, IS, IS),
+			new MSSprite("img/mine/tile.png").cutImage(IS, 0, IS, IS),
+			new MSSprite("img/mine/tile.png").cutImage(IS * 2, 0, IS, IS),
+			new MSSprite("img/mine/tile.png").cutImage(IS * 3, 0, IS, IS), };
 }
