@@ -25,9 +25,23 @@ public class Game implements MSState {
 
 	}
 
+	public double turnTimer = 0, turnSpeed = 0.02;
+
+	// 턴 돌때마다 실행되는 함수
+	public void updateTurn() {
+		
+	}
+
 	@Override
 	public void update() {
 		Main.display.setTitle("Timeline - " + MSMain.fps);
+
+		//턴 타이머 올리고 1넘어가면 0으로 초기화, 함수 실행
+		turnTimer += turnSpeed;
+		if (turnTimer >= 1) {
+			turnTimer = 0;
+			updateTurn();
+		}
 	}
 
 }
